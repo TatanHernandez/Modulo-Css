@@ -29,8 +29,16 @@ img { border: none; }
 #cabecera #logo { float: left; }
 #cabecera #buscador { float: right; }
 
-#menu ul#menu_principal li { display: inline; float: left; }
+#menu ul#menu_principal li { display: inline-block; float: left; }
+#menu ul#menu_principal li a { 
+    padding: 10px 20px;
+    display: inline-block;
+}
 
+#menu ul#menu_principal li a:hover{
+background: #ccc;
+color: #000;
+}
 #contenido #principal .articulo img { width: 100px; float: left; }
 
 /*-- Pie de página ---------------------------------------------------*/
